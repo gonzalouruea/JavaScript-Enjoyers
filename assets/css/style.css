@@ -10,6 +10,13 @@
     height: 100%;
 }
 
+.card{
+    transition: .5s;
+}
+.card:hover{
+    transform: scale(110%);
+}
+
 .container-login {
     width: 350px;
     padding: 20px;
