@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+.carousel-item {
+    /*max-height: 300px;*/
+    overflow: hidden; /* Asegura que el contenido que exceda la altura sea recortado */
+}
+
+.carousel-item img {
+    height: 400px; /* Asegura que todas las imágenes tengan la misma altura */
+    width: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Cubre todo el área del contenedor */
+}
+
+
+#titulo h2 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal; 
+    font-size: 75px;
+        
+        
+      
+}
+
+#tiutlo-carusel{
+    
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#tarjetas{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#tarjeta1{
+    background-color: #f8f9f9;
+}
+
+#tarjeta2{
+    background-color: #f2f3f4;
+}
+
+#tarjeta3{
+    background-color: #e5e7e9;
+}
+
+#tarjeta4{
+    background-color: #e5e7e9;
+}
+
+
+
+/* Login*/
+
+
+#login{
+    padding-top: 100px;
+}
+
+#formulario{
+    
+    border-style: solid;
+    border-radius: 6px;
+    padding: 20px;
+    border: none;
+    background-color: #f2f3f4;
+
+}
+
+#p-formulario{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: grey;
+    border-style: solid;
+}
+
+#enviar{
+    background-color: blue;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    padding: 3px 8px ;
+}
+
+/*Registro*/
+
+#registro-p, #lista-p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
