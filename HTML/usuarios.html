@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="../Script/myScript.js"></script> 
+     
 
     <!-- Menu -->
     <nav class="navbar navbar-expand-sm bg-primary" data-bs-theme="dark">
@@ -48,21 +47,21 @@
                     <!--Nombre-->
                     <div data-mdb-input-init class="form-outline mb-4">
                         <label class="form-label" for="form2Example1">Nombre</label>
-                        <input type="titulo" id="form2Example1" class="form-control" />
+                        <input type="nombre" id="input-nombre" class="form-control" />
                     </div>
                     <!--Email-->
                     <div data-mdb-input-init class="form-outline mb-4">
                         <label class="form-label" for="form2Example1">Email</label>
-                        <input type="titulo" id="form2Example1" class="form-control" />
+                        <input type="email" id="input-email" class="form-control" />
                     </div>
                     <!--Password-->
                     <div data-mdb-input-init class="form-outline mb-4">
                         <label class="form-label" for="form2Example1">Password</label>
-                        <input type="titulo" id="form2Example1" class="form-control" />
+                        <input type="password" id="input-password" class="form-control" />
                     </div>
                     <!--Botón dar de alta-->
                     <div class="d-flex mb-3">
-                        <button type="button" class="btn btn-primary">Dar de alta</button>
+                        <button type="button" class="btn btn-primary" id="dar-alta">Dar de alta</button>
                     </div>
                 </div>
                 <div class="col-lg-12 col-xl-6">
@@ -72,7 +71,7 @@
                           <div class="col-3 border p-2">
                             Nombre
                           </div>
-                          <div class="col-4 border p-2" id="email">
+                          <div class="col-4 border p-2">
                             Email
                           </div>
                           <div class="col-3 border p-2">
@@ -82,21 +81,7 @@
                             Acciones
                           </div>
                         </div>
-                        <div class="row">
-                            <div class="col-3 border p-2">
-                              Ejemplo
-                            </div>
-                            <div class="col-4 border p-2 ">
-                              ejemplo@ejemplo.com
-                            </div>
-                            <div class="col-3 border p-2">
-                                123    
-                            </div>
-                            <div class="col-2 border p-2">
-                                <div class="d-flex justify-content-center mb-3">
-                                    <button type="button" class="btn btn-danger">Borrar</button>
-                                </div>
-                            </div>
+                        <div class="row" id="usuarios-lista">
                           </div>
                       </div>
                 </div>
@@ -105,6 +90,7 @@
             
        </div>
       
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="module" src="../Script/usuarios.js"></script>
 </body>
 </html>

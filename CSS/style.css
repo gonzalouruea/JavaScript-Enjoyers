@@ -15,11 +15,11 @@ body {
 .card:hover{
     transform: scale(110%);
 }
-.card.peticion{
+.card.Petición{
     background-color: rgb(194, 111, 66);
     color: white;
 }
-.card.oferta{
+.card.Oferta{
     background-color: rgb(111, 66, 193);
     color: white;
 }
